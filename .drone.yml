@@ -5,4 +5,4 @@ steps:
 - name: test
   image: python
   commands:
-  -python main.py install
+  - python main.py install
