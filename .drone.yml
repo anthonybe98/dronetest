@@ -3,7 +3,7 @@ name: tester
 
 steps:
 - name: test
-  image: python
+  image: python:3.7.3
   commands:
   - python main.py
   - cd test
